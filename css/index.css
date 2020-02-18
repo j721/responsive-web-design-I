@@ -1,3 +1,232 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    max-width: 100%;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/* End of CSS reset */
+
+
+.navigation{
+	width: 900px;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+header{
+	display:flex;
+    justify-content: space-between;
+    margin-top:3%;
+}
+header nav{
+	display:flex;
+	width: 62%;
+    margin-left: 4%;
+	justify-content: space-around;
+}
+
+.lightbulb{
+	margin-right:9%;
+}
+header nav a{
+	color: lightslategrey;
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 7%;
+    padding-bottom:2%;
+    width:89%;
+    border-bottom: 1px solid black;
+}
+
+
+.top .left-text{
+	display:flex;
+	justify-content:center;
+	flex-flow:column;
+	align-items: center;
+	font-size:70px;
+	letter-spacing: 5px;
+}
+
+h1{
+	font-size: 70px;
+	text-align:center;
+}
+
+button{
+    border: 1px solid black;
+    background-color: white;
+    padding: 3% 11%;
+    margin-bottom:3%;
+    font-size: 14px;
+}
+
+
+.middle{
+	display: flex;
+    justify-content: space-evenly;
+    margin-left: 7%;
+}
+
+.Features, .About {
+    text-align: left;
+    padding: 3%;
+}
+
+
+.middle-img{
+	width: 90%;  
+    display: flex;
+    padding-left: 8%;
+}
+
+.bottom{
+	display:flex;
+	justify-content:space-evenly;
+	width: 92%;
+    margin-left: 5%;
+    border-bottom: 1px solid black;
+}
+
+.Services, .Product, .Vision{
+    text-align:left;
+    padding:4%;
+}
+
+
+.Contact{
+padding: 2% 0 6% 6%;
+margin-left: 3%;
+}
+
+footer{
+	text-align: center;	
+}
+
+
+/* Tablet View */
+/* Tablet View */
+/* Tablet View */
+/* Tablet View */
+/* Tablet View */
+
+@media(max-width:800px){
+
+    header{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:center;
+    } 
+
+    header nav a{
+        padding: 6%;
+    }
+
+    .lightbulb{
+        margin-left: 13%;
+    }
+    .circleimg{
+        display:none;
+    }
+
+    .left-text{
+        text-align:center;
+    }
+}
+
+
+
+
+/* Mobile View */
+/* Mobile View */
+/* Mobile View */
+/* Mobile View */
+/* Mobile View */
+/* Mobile View */
+/* Mobile View */
+
+@media(max-width:500px){
+    header nav{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        color: lightgray;
+        }   
+
+    header nav a{
+           padding: 4%;
+           border-bottom: 1px solid gray;
+           width: 100%;
+            text-align: center;
+    }
+
+    .Services1{
+        border-top: 1px solid gray;
+        text-align:center;
+    }
+
+    .top{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column-reverse;
+    }
+
+    .lightbulb{
+        margin: 2% 0 3% 8%;
+    }
+
+    header{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:center;
+    }
+
+    .left-text{
+
+    }
+        
+    .circleimg{
+        display:none;
+    }
+
+    .middle{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .bottom{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    
+}
+
+
