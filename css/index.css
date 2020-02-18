@@ -136,3 +136,57 @@ margin-left: 3%;
 footer{
 	text-align: center;	
 }
+
+/* Tablet View */
+@media(max-width:800px){
+    .Desktop{
+        display:none;
+    }
+    .left-text{
+        text-align:center;
+    }
+    .lightbulb{
+        display:none;
+    }
+}
+
+
+
+
+
+/* Mobile View */
+
+@media(max-width:500px){
+    header nav{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column-reverse;
+        color: slategrey;
+        }     
+    
+    .top{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+
+    .lightbulb{
+        display:flex;
+        width:30%;
+        margin-right:0;
+    }
+
+    header{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:center;
+    }
+}
+
+@media(min-width:800px){
+ }
+
+}
+
