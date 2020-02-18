@@ -83,7 +83,7 @@ hr{
 	display: flex;
 	justify-content: space-around;
 	padding: 3%;
-	padding-right: 11%;
+    padding-right: 11%;
 }
 
 .Features{
@@ -181,6 +181,24 @@ footer{
     header{
         display:flex;
         flex-direction:column-reverse;
+        align-items:center;
+    }
+
+    .circleimg{
+        display:none;
+    }
+
+    .middle{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .bottom{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
         align-items:center;
     }
 }
