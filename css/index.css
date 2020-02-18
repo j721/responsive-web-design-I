@@ -179,7 +179,7 @@ footer{
     header nav a{
            padding: 4%;
            border-bottom: 1px solid gray;
-           width: 350px;
+           width: 100%;
             text-align: center;
     }
 
